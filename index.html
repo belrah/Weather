@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Weather-WebApp</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <!----main CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+
+<body>
+    <!-------------------------navbar section------------------------>
+    <!-- 
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+        <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
+    <!-- <span class="navbar-toggler-icon"></span> -->
+    <!-- <i class="fas fa-bars text-white"></i>
+    </button>
+    <a class="navbar-brand" href="#"><span class="text-danger font-weight-bold logo">Weatherish</span></a>
+
+    <ul class="navbar-nav mt-2 mt-lg-0">
+        <li class="nav-item dropdown">
+            <a class="nav-link " id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-user fa-1x" style="color: red; "></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+                <a class="dropdown-item" href="login.html">
+                    <h5 class="text-center text-danger font-weight-bold"> Login</h5>
+                </a>
+                <a class="dropdown-item" href="signup.html">
+                    <h5 class="text-center text-danger font-weight-bold"> Sign Up</h5>
+                </a>
+            </div>
+        </li>
+    </ul>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav bark m-0 ml-lg-auto p-3 p-lg-0">
+
+            <li class="nav-item">
+                <a class="nav-link text-truncate text-danger" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-truncate text-danger" href="weather.html">Check Weather</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-truncate text-danger" href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+    </nav> -->
+    <!-------------------------home section------------------------>
+
+    <div class="container-fluid ">
+
+        <a class="weatherwidget-io" href="https://forecast7.com/en/9d087d40/abuja/" data-label_1="ABUJA" data-label_2="WEATHER" data-font="Arial Black" data-icons="Climacons Animated" data-theme="original" data-highcolor="#ed1818" data-suncolor="#f2a808">ABUJA WEATHER</a>
+
+
+        <div class="mt-2">
+            <div class="input">
+                <input type="text" placeholder="Enter a City Name" class="input_text">
+                <input type="submit" value="Search" class="submit">
+            </div>
+            <div class="card">
+                <h1 class="name" id="name"></h1>
+                <p class="temp"></p>
+                <p class="clouds"></p>
+                <p class="desc"></p>
+            </div>
+        </div>
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <a class="weatherwidget-io" href="https://forecast7.com/en/9d087d40/abuja/" data-label_1="ABUJA" data-label_2="WEATHER" data-font="Arial Black" data-icons="Climacons Animated" data-theme="original" data-highcolor="#ed1818" data-suncolor="#f2a808">ABUJA WEATHER</a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="mt-2">
+                        <div class="input">
+                            <input type="text" placeholder="Enter a City Name" class="input_text">
+                            <input type="submit" value="Search" class="submit">
+                        </div>
+                        <div class="card">
+                            <h1 class="name" id="name"></h1>
+                            <p class="temp"></p>
+                            <p class="clouds"></p>
+                            <p class="desc"></p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+    </div>
+    <!-------------------------footer section------------------------>
+    <!-- <div class="container-fluid text-danger">
+            <footer>
+                <p class="text-center font-weight-bold">WEATHER-APP 2020 &COPY; MERCY-kALU</p>
+            </footer>
+        </div> -->
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+    <script src="assets/JS/app.js"></script>
+    <script>
+    </script>
+
+</body>
+
+</html>
